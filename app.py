@@ -54,27 +54,9 @@ with col1:
     """)
     st.button("Lihat Detail Proyek", key="proj1")
 
-with col2:
-    st.subheader("Chatbot RAG FC Barcelona & Indofood")
-    st.image("project2.png", caption="Project 2", width=300)
-    st.write("Chatbot RAG yang memuat laporan peforma FC Barcelona musim 2024/25 dan laporan tahunan Indofood pada tahun 2025 (Per September).")
-    st.markdown(
-        '<a href="https://simple-rag-erwin-day44.streamlit.app/" target="_blank">'
-        '<button style="padding:8px 16px;">Lihat Detail Proyek</button>'
-        '</a>',
-        unsafe_allow_html=True
-    )
 
-with col3:
-    st.subheader("Rendang GPT")
-    st.image("project3.png", caption="Project 3", width=300)
-    st.write("Chatbot pemberi resep rendang")
-    st.markdown(
-        '<a href="https://rendang-gpt2-erwin-day44.streamlit.app/" target="_blank">'
-        '<button style="padding:8px 16px;">Lihat Detail Proyek</button>'
-        '</a>',
-        unsafe_allow_html=True
-    )
+
+
 
 st.divider()
 
